@@ -12,8 +12,8 @@ public class Main {
     　[090][080][070]から始まる3桁-4桁-4桁の計11桁の番号*/
 
     //フラグを立てる
-    boolean flag = true;
-    while (flag) {
+    boolean inputContinueFlag = true;
+    while (inputContinueFlag) {
       //オブジェクトのインスタンス化
       Scanner scanner = new Scanner(System.in);
       //入力処理
@@ -36,7 +36,7 @@ public class Main {
         //scannerを閉じる
         scanner.close();
         //フラグを折る
-        flag = false;
+        inputContinueFlag = false;
       }
     }
   }
